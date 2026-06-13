@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cospi 개인정보 처리방침</title>
+  <meta name="description" content="Cospi 앱 개인정보 처리방침">
+  <link rel="icon" href="assets/cospi-icon-56.png">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f4ef;
+      --paper: #fffaf3;
+      --ink: #211915;
+      --muted: #6f625b;
+      --line: #dfd4c8;
+      --accent: #4d725d;
+      --accent-ink: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+        "Noto Sans KR", "Malgun Gothic", sans-serif;
+      line-height: 1.72;
+      word-break: keep-all;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+
+    header {
+      padding: 40px 0 28px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 32px;
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: var(--accent-ink);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .badge img {
+      width: 22px;
+      height: 22px;
+      border-radius: 6px;
+    }
+
+    h1 {
+      margin: 18px 0 12px;
+      font-size: clamp(32px, 5vw, 52px);
+      line-height: 1.16;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 720px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    section {
+      padding: 30px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 24px;
+      line-height: 1.3;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 24px 0 8px;
+      font-size: 18px;
+      line-height: 1.35;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+      background: rgba(255, 250, 243, 0.72);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      display: block;
+    }
+
+    tbody,
+    tr {
+      display: block;
+    }
+
+    th,
+    td {
+      display: block;
+      padding: 14px 16px;
+      text-align: left;
+      vertical-align: top;
+      border-bottom: 1px solid var(--line);
+    }
+
+    th {
+      background: rgba(77, 114, 93, 0.09);
+      font-weight: 800;
+      color: #284536;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    a {
+      color: #2d6044;
+      font-weight: 700;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    .notice {
+      margin-top: 18px;
+      padding: 18px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    footer {
+      padding-top: 28px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (min-width: 760px) {
+      table {
+        display: table;
+      }
+
+      tbody {
+        display: table-row-group;
+      }
+
+      tr {
+        display: table-row;
+      }
+
+      th,
+      td {
+        display: table-cell;
+        border-bottom: 1px solid var(--line);
+      }
+
+      th {
+        width: 28%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <span class="badge"><img src="assets/cospi-icon-56.png" alt="">Cospi</span>
+      <h1>개인정보 처리방침</h1>
+      <p class="lead">
+        Cospi는 스페셜티 커피 레시피, 추출 기록, 친구 공유 기능을 제공하기 위해 필요한 범위에서 개인정보를 처리합니다.
+      </p>
+      <p class="meta">시행일: 2026년 6월 13일</p>
+    </header>
+
+    <section>
+      <h2>1. 처리하는 개인정보 항목</h2>
+      <p>Cospi는 회원 기능과 데이터 동기화를 제공하기 위해 아래 정보를 처리할 수 있습니다.</p>
+      <table>
+        <tbody>
+          <tr>
+            <th>로그인 및 계정</th>
+            <td>Firebase 사용자 ID, 이메일 주소, 표시 이름, 프로필 사진 URL, 로그인 제공자 정보, 익명 로그인 여부, 가입일 및 갱신일</td>
+          </tr>
+          <tr>
+            <th>소셜 로그인</th>
+            <td>Google, Apple, Kakao 로그인 과정에서 제공되는 인증 정보 및 프로필 정보. Kakao 액세스 토큰은 로그인 확인과 Firebase 인증 토큰 발급 목적으로만 사용됩니다.</td>
+          </tr>
+          <tr>
+            <th>친구 기능</th>
+            <td>친구 코드, 친구의 사용자 ID, 표시 이름, 프로필 사진 URL, 이메일 주소, 친구 추가 시각</td>
+          </tr>
+          <tr>
+            <th>레시피 및 추출 기록</th>
+            <td>사용자가 만든 커스텀 레시피, 즐겨찾기와 조회 정보, 추출 세션, 평점, 산미, 단맛, 바디, 쓴맛, 태그, 메모, 공유 설정, 작성자 정보</td>
+          </tr>
+          <tr>
+            <th>서비스 이용 과정</th>
+            <td>앱 오류, 접속 로그, IP 주소, 기기 및 브라우저 정보 등 서비스 운영과 보안에 필요한 기술 정보가 Firebase, Google Cloud, GitHub Pages 등에서 생성될 수 있습니다.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>2. 개인정보의 처리 목적</h2>
+      <ul>
+        <li>회원 식별, 로그인 유지, 계정 관리</li>
+        <li>사용자 레시피, 즐겨찾기, 추출 기록 저장 및 여러 기기 간 동기화</li>
+        <li>친구 추가, 친구가 공유한 레시피와 추출 기록 표시</li>
+        <li>공식 레시피와 원두 정보 제공, 서비스 품질 개선</li>
+        <li>부정 이용 방지, 보안, 장애 대응, 고객 문의 처리</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. 개인정보의 보관 및 삭제</h2>
+      <p>
+        Cospi는 서비스 제공에 필요한 기간 동안 개인정보를 보관합니다. 사용자가 직접 삭제한 레시피, 추출 기록, 친구 정보는 서비스 데이터에서 삭제됩니다.
+        계정 삭제 또는 개인정보 삭제를 요청하면 본인 확인 후 Firebase Authentication 계정과 Firestore에 저장된 사용자 데이터를 삭제합니다.
+      </p>
+      <p>
+        관계 법령에 따라 보관이 필요한 정보가 있는 경우에는 해당 법령에서 정한 기간 동안 분리 보관할 수 있습니다.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. 개인정보의 제3자 제공 및 처리 위탁</h2>
+      <p>
+        Cospi는 사용자의 개인정보를 판매하지 않습니다. 다만 서비스 운영을 위해 아래 서비스가 개인정보를 처리할 수 있습니다.
+      </p>
+      <table>
+        <tbody>
+          <tr>
+            <th>Google Firebase 및 Google Cloud</th>
+            <td>인증, 데이터 저장, 클라우드 함수 실행, 서비스 운영 로그 처리</td>
+          </tr>
+          <tr>
+            <th>Google, Apple, Kakao</th>
+            <td>사용자가 선택한 소셜 로그인 인증 및 프로필 정보 제공</td>
+          </tr>
+          <tr>
+            <th>GitHub Pages</th>
+            <td>개인정보 처리방침 페이지 호스팅 및 접속 로그 처리</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="notice">
+        친구 공유 기능을 켠 레시피와 추출 기록은 친구로 등록된 사용자에게 표시될 수 있습니다.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. 국외 이전</h2>
+      <p>
+        Cospi는 Firebase, Google Cloud, GitHub Pages 등 글로벌 클라우드 서비스를 사용합니다. 이에 따라 개인정보 또는 서비스 운영 로그가 서비스 제공자의 국외 인프라에서 저장되거나 처리될 수 있습니다.
+        이전되는 정보는 서비스 제공, 보안, 장애 대응 목적에 필요한 범위로 제한됩니다.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. 이용자의 권리</h2>
+      <p>이용자는 언제든지 개인정보 열람, 정정, 삭제, 처리 정지를 요청할 수 있습니다.</p>
+      <ul>
+        <li>앱 안에서 직접 삭제할 수 있는 레시피, 추출 기록, 친구 정보는 해당 기능을 통해 삭제할 수 있습니다.</li>
+        <li>계정 삭제, 전체 데이터 삭제, 기타 개인정보 관련 요청은 아래 문의 이메일로 연락해 주세요.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>7. 안전성 확보 조치</h2>
+      <ul>
+        <li>Firebase Authentication을 통한 사용자 인증</li>
+        <li>Firestore 보안 규칙을 통한 사용자별 데이터 접근 제한</li>
+        <li>HTTPS 기반 통신과 클라우드 서비스의 보안 기능 사용</li>
+        <li>운영 목적상 필요한 인원과 범위로 접근 권한 제한</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>8. 아동의 개인정보</h2>
+      <p>
+        Cospi는 만 14세 미만 아동을 주 대상으로 하지 않으며, 만 14세 미만 아동의 개인정보를 고의로 수집하지 않습니다.
+        법정대리인이 아동의 개인정보 삭제를 요청하는 경우 확인 후 필요한 조치를 진행합니다.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. 문의처</h2>
+      <p>개인정보와 관련한 문의, 권리 행사, 계정 및 데이터 삭제 요청은 아래 이메일로 연락해 주세요.</p>
+      <ul>
+        <li><a href="mailto:pyi7628@gmail.com">pyi7628@gmail.com</a></li>
+        <li><a href="mailto:hovy199431@gmail.com">hovy199431@gmail.com</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>10. 방침 변경</h2>
+      <p>
+        이 개인정보 처리방침은 법령, 서비스 내용, 개인정보 처리 방식 변경에 따라 수정될 수 있습니다.
+        중요한 변경이 있는 경우 앱 또는 본 페이지를 통해 안내합니다.
+      </p>
+    </section>
+
+    <footer>
+      <p>Copyright © Cospi. All rights reserved.</p>
+    </footer>
+  </main>
+</body>
+</html>
